@@ -1,0 +1,260 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cool-header {
+    height: 100vh;
+    background: linear-gradient(
+        rgba(244, 240, 240, 0.5), 
+        rgba(0, 0, 0, 0.5)
+    ), 
+    url('') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    background-color: #004d40;
+}
+
+.cool-header h1 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 0 4px 6px rgba(0,0,0,0.7);
+    animation: fadeInDown 2s ease-out;
+}
+
+.cool-header p {
+    font-size: 1.5rem;
+    margin-top: 15px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    animation: fadeInUp 2s ease-out;
+}
+
+
+main {
+    padding: 50px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+
+}
+.note {
+    font-size: 0.9em;
+    color: #511616;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-style: italic;
+  }
+  
+  header.masthead {
+    position: relative;
+    margin-bottom: 3rem;
+    padding-top: calc(8rem + 57px);
+    padding-bottom: 8rem;
+    background: no-repeat center center;
+    background-color: #ece100;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  header.masthead:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #333a42;
+    opacity: 0.5;
+  }
+  header.masthead .page-heading,
+  header.masthead .post-heading,
+  header.masthead .site-heading {
+    color: #fff;
+  }
+  header.masthead .page-heading,
+  header.masthead .site-heading {
+    text-align: center;
+  }
+  header.masthead .page-heading h1, header.masthead .page-heading .h1,
+  header.masthead .site-heading h1,
+  header.masthead .site-heading .h1 {
+    font-size: 3rem;
+  }
+  header.masthead .page-heading .subheading,
+  header.masthead .site-heading .subheading {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.1;
+    display: block;
+    margin-top: 0.625rem;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  header.masthead .post-heading h1, header.masthead .post-heading .h1 {
+    font-size: 2.25rem;
+  }
+  header.masthead .post-heading .meta,
+  header.masthead .post-heading .subheading {
+    line-height: 1.1;
+    display: block;
+  }
+  header.masthead .post-heading .subheading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0.75rem 0 2rem;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  header.masthead .post-heading .meta {
+    font-size: 1.25rem;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  header.masthead .post-heading .meta a {
+    color: #fff;
+  }
+  @media (min-width: 992px) {
+    header.masthead {
+      padding-top: 12.5rem;
+      padding-bottom: 12.5rem;
+    }
+    header.masthead .page-heading h1, header.masthead .page-heading .h1,
+    header.masthead .site-heading h1,
+    header.masthead .site-heading .h1 {
+      font-size: 5rem;
+    }
+    header.masthead .post-heading h1, header.masthead .post-heading .h1 {
+      font-size: 3.5rem;
+    }
+    header.masthead .post-heading .subheading {
+      font-size: 1.875rem;
+    }
+  }
+
+  /* Page Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #d6d6d6;
+    color: #333;
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Fun Main Paragraph */
+  main p {
+    background: #ffecb3;
+    padding: 15px 20px;
+    border-left: 6px solid #fbc02d;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Styling */
+  h1 {
+    font-size: 2.5rem;
+    color: #d32f2f;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 0 #fff;
+  }
+  
+  /* Lego List */
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    position: relative;
+    padding: 10px 0;
+  }
+  
+  /* Note Styling */
+  .note {
+    background-color: #e0f7fa;
+    padding: 8px 12px;
+    border-left: 4px solid #00796b;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+    border-radius: 6px;
+    color: #004d40;
+  }
+  
+ 
+  ul li::before {
+    content: "🧱";
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .lego-img {
+    width: 100%;           
+    max-width: 500px;      
+    height: auto;           
+    display: block;
+    margin: 15px 0;         
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .navbar {
+    background-color: #fbc02d;
+    padding: 20px 30px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 5px solid #f57c00;
+  }
+  
+  
+  .nav-link {
+    color: #003366;   
+    font-size: 1.4rem;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 0 20px;
+    background-color: #ffeb3b;  
+    border-radius: 12px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .nav-link:hover {
+    background-color: #e65100;  
+    color: #fff;
+    transform: translateY(-5px);  
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);  
+  }
+  
+  
+  .nav-link:active {
+    transform: translateY(2px);  
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .navbar a {
+    margin: 0 20px;
+  }
+  
